@@ -1,0 +1,75 @@
+.a-1 {
+    background: url("images/celeste.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+.a-2 {
+    background: url("images/splatoon3.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+.a-3  {
+    background: url("images/gta6.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+.a-4 {
+    background: url("images/league.jpg");
+    background-size: auto 100%;
+    background-position: start;
+
+}
+.a-5 {
+    background: url("images/terraria.jpg");
+    background-size: auto 140%;
+    background-position: center top;
+
+}
+.poll {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(267deg, #e328f3, #fe0879, #fea608);
+    background-size: 600% 600%;
+    animation: AnimationName 24s ease infinite;
+}
+.article {
+    background-color: rgb(255, 43, 6);
+    border-radius: 5px;
+    padding: .1em;
+}
+.review {
+    background-color: yellowgreen;
+    border-radius:5px ;
+    padding: .1em;
+}
+.teaser {
+    background-color: rgb(64, 213, 224);
+    padding: .1em;
+    border-radius: 5px;
+}
+.video-article {
+    width: 90%;
+    height: 20vh;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: khaki;
+    background-image: url("images/silksong-trailer.jpg.crdownload");
+    background-size: 100% auto;
+    background-position: bottom;
+}
+.margin-span {
+    margin-right: .7em;
+}
+.cyberpunk-article {
+    background-image: url("images/cyberpunk.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.cookies-tab {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.397);
+    position: fixed;
+    z-index: 8;
+    top: -100%;
+    transition: .7s;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+
+    
+}
+.metroid {
+    height: 10em;
+    position: relative;
+    top: 80px;
+}
+.cookies-content {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20vh;
+    border-radius: 30px;
+    border: 2px solid black;
+
+}
+.cookies-information {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.cookie-info-div {
+    height: 60%;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+}
+.cookie-img {
+    height: 0px;
+
+
+}
+
+.c-button {
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    background: white;
+    border: 3px solid black;
+}
+.accept-cookies {
+    background: rgb(211, 247, 159);
+}
+.decline-cookies {
+    background: rgb(255, 146, 146);
+}
+.c-button:focus {
+    outline: none;
+}
+.c-button:hover {
+    border: 4px solid black;
+}
+@media only screen and (min-width: 600px) {
+    .cookie-img {
+        height: 3em;
+        transition: 2s;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 7;
+    }
+    .cookie-img:hover {
+        transform: rotateZ(360deg);
+    }
+    .cookies-content {
+        width: 50%;
+    }
+  }
